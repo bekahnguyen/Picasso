@@ -1,0 +1,144 @@
+body{
+    background-color:antiquewhite;
+    
+}
+article{
+    height: 300px;
+    width: 500px;
+}
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    justify-content: space-evenly; 
+
+}
+
+.box1{
+    background-color:rgb(0, 115, 255);
+    height: 150px;
+    width: 150px;
+}
+
+.box2{
+    height:150px;
+    width:150px;
+    background-color:rgb(0, 0, 255);
+}
+
+.box3{
+    height:150px;
+    width: 150px;
+    background-color:rgb(0, 81, 255);
+}
+
+.grass{
+    height: 150px;
+    width: 500px;
+    background-color: green;
+}
+.sun{
+    background-color:rgba(246, 246, 42, 0.958);
+    border-radius:50%;
+    height: 100px;
+    width: 100px;
+    margin-top: -300px;
+    z-index: index 30;
+    position: relative;
+}
+
+.beam,.beam2, .beam3, .beam4{
+    height:10%;
+    width: 50px;
+    background-color: rgb(255, 247, 0);
+    z-index: index 25;
+    position: relative;
+   
+}
+.beam{
+    margin-left:100px;
+}
+
+.beam2{
+    margin-top: 100px;
+}
+
+.beam3{
+    margin-top:-50px;
+    margin-left: 125px;
+}
+
+.beam4{
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+.barn{
+    height:110px;
+    width:200px;
+    background-color:rgba(235, 23, 23, 0.918);
+    position:relative;
+    z-index: index 15;
+    margin-top: 40px;
+    margin-left: 140px;
+    border: 10px solid rgb(185, 3, 3);
+    
+}
+
+.door{
+     border: 2px solid white;
+    height: 60px;
+    width: 170px;
+    margin-top: 40px;
+    margin-left:10px;
+    background-color:antiquewhite;
+    position: relative;
+    z-index: index 80;
+    
+}
+
+
+
+.form{
+    border: 5px solid black;
+    width:fit-content;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.cloud,.cloud2, .cloud3{
+    background-color: azure;
+    height: 40px;
+    width: 80px;
+    border-radius:44%;
+   }
+
+   .cloud2{
+    margin-top:-15px;
+    margin-left:20px;
+   }
+
+.cloud3{
+    background-color: white;
+    margin-left:-20px;
+    margin-top: -30px;
+}
+
+.top{
+    width: 0;  
+    height: 0;  
+    border-left: 90px solid transparent; 
+    border-right: 90px solid transparent;       
+    border-bottom: 90px solid red; 
+    margin-top:65px;
+    margin-left: -20px;  
+    } 
+    
+.window{
+    height:50px;
+    width: 50px;
+    border-radius:50%;
+    background-color:antiquewhite;
+    margin-left: 40px;
+    margin-top: -60px;
+}
